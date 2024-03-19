@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    color: rgb(228, 225, 221);
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.main {
+    border: 1px solid whitesmoke;
+    border-bottom: 0.5px solid whitesmoke;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.cover {
+        text-align: center;
+        display: flex;
+        border: 1px solid rgb(41, 39, 40);
+        background-image: url(about_right.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+}
+
+.img-profile {
+    width: 100px;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.img-followers {
+    width: 30px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    size: 10px;
+}
+h2 {
+    margin-bottom: 2px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+p{
+    margin-left: 10px;
+}
+.btn-story{
+    background-color: rgb(30, 30, 248);
+    color: whitesmoke;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(68, 68, 73);
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.container{
+    margin-top: 10px;
+    color: whitesmoke;
+    border-bottom: 0.5px solid grey;
+}
+li{
+    color: whitesmoke;
+}
+.cbu {
+    color: rgb(109, 109, 252);
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: normal;
+    border-top: 1px solid whitesmoke;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(207, 203, 203);
+}
+nav li {
+    height: 50px;
+    margin-right: 25px;
+    margin-left: 15px;
+    margin-top: 8px;
+    padding: 1px;
+}
